@@ -1,6 +1,8 @@
 .body1{
   background: url(../IMG/pxfuel.com.jpg) no-repeat center;
-  background-size: cover
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .body {
     margin: 0;
