@@ -1,97 +1,206 @@
-.body1{
-  background: url(../IMG/pxfuel.com.jpg) no-repeat center;
+.body1 {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../IMG/pxfuel.com.jpg);
+}
+
+
+.im1{
+  opacity: 0.5;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
-.body {
-    margin: 0;
-    padding: 0;
-    background: url(../IMG/Screenshot_34.png) no-repeat center bottom;
-    background-color: grey;
-    background-size: 350px;
-    font-family: sans-serif;
-    height: 100vh;
-  }
-  
-  .login-box {
-    width: 320px;
-    height: 420px;
-    background: #1A5F7A;
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-  }
-    
-  .login-box h1 {
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    font-size: 22px;
-  }
-  
-  .login-box label {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
-  }
-  
-  .login-box input {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-  .login-box input[type="text"], .login-box input[type="password"] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-  }
-  
-  .login-box input[type="submit"] {
-    border: none;
-    outline: none;
-    height: 40px;
-    background: #57C5B6;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-  }
-  
-  .login-box input[type="submit"]:hover {
-    cursor: pointer;
-    background: #159895;
-    color: #000;
-  }
-  
-  .login-box a {
-    text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
-    color: darkgrey;
-  }
-  
-  .login-box a:hover {
-    color: #fff;
-  }
-  .login-box .avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: absolute;
-    top: -50px;
-    left: calc(50% - 50px);
-  }
-  
 
-.card{
-background-color: rgba(0, 0, 0, 0.253);
+.body {
+  margin: 0;
+  padding: 0;
+  background: url(../IMG/Screenshot_34.png) no-repeat center bottom;
+  background-color: grey;
+  background-size: 350px;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #1A5F7A;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #57C5B6;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #159895;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+.login-box .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+
+.card {
+  background-color: rgba(0, 0, 0, 0.644);
+}
+
+.regresar-btn {
+
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 200px;
+  margin: 0 auto;
+  bottom: 5px;
+  left: 50%;
+  width: 105;
+  height: 36px;
+}
+
+.card-img-top{
+  width: 100px;
+  height: 100px;
+}
+
+.btn1{
+  font-size:10px;
+}
+
+.card-text, .card-title{
+  padding-top: 5px;
+  font-weight:lighter ;
+  color: #fff;
+}
+.box {
+  height: 100px;
+}
+
+.permisos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.permiso-card {
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.permiso-card:hover {
+  background-color: #e9ecef;
+}
+
+.permiso-card.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.popup {
+  position: relative;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.permisos-container {
+  margin-bottom: 20px;
+}
+
+.btn-guardar {
+  display: block;
+  width: 100%;
+}
+
+.form-check{
+  margin: auto;
 }
