@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Iniciar sesion</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="CSS/style.css">
-  <title>Salyos</title>
-</head>
-<body class="body1">
-  <div class="form-body">
-    <div class="login-box">
-      <img src="img/LogoSample_ByTailorBrands.jpg" class="avatar" alt="Logo">
-      <h1>Iniciar sesión</h1>
-      <form>   
-        <input type="text" placeholder="Usuario">
-        <input type="password" placeholder="Contraseña">
-        <input type="submit" value="Iniciar">
-      </form>
-  </div>
-</body>
-</html>
+    <body class="body1">
+      <div id="general">
+        <form action class="formulario" onsubmit="return validarCampos()">
+          <img src="IMG/17004.png" alt="logo">
+          <p>Iniciar sesión</p>
+
+          <section class="info">
+            <label for="usuario">Usuario</label>
+            <input class="texto" type="text" id="usuario">
+          </section>
+          <section class="info">
+            <label for="contrasena">Contraseña</label>
+            <input class="texto" type="password" id="contrasena">
+          </section>
+          <input class="texto" type="submit" value="Iniciar Sesión">
+        </form>
+      </div>
+    </body>
+    <script src="JS/script.js"></script>
+  </html>
